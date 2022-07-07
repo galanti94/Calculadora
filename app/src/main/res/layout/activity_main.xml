@@ -63,7 +63,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@color/teclas"
-            android:onClick="cliclarTecla"
+            android:onClick="operacao"
             android:text="/"/>
 
     </LinearLayout>
@@ -113,7 +113,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@color/teclas"
-            android:onClick="cliclarTecla"
+            android:onClick="operacao"
             android:text="+"/>
 
     </LinearLayout>
@@ -163,7 +163,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@color/teclas"
-            android:onClick="cliclarTecla"
+            android:onClick="operacao"
             android:text="-"/>
 
     </LinearLayout>
@@ -193,7 +193,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@color/teclas"
-            android:onClick="cliclarTecla"
+            android:onClick="operacao"
             android:text="*"/>
 
         <Button
@@ -203,8 +203,10 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@color/teclas"
-            android:onClick="cliclarTecla"
+            android:onClick="teclaCLR"
             android:text="CLR"/>
+
+
 
         <Button
             android:id="@+id/buttonIgual"
@@ -213,7 +215,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@color/teclas"
-            android:onClick="cliclarTecla"
+            android:onClick="teclaIgual"
             android:text="="/>
 
     </LinearLayout>
